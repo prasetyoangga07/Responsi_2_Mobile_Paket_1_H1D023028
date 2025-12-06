@@ -190,7 +190,7 @@ Navigator.pushAndRemoveUntil(
 ``File: lib/helpers/api_url.dart``
 ```
 class ApiUrl {
-  static const String baseUrl = "http://192.168.1.15:8080";
+  static const String baseUrl = "http://192.168.xx.15:8080";
 
   static const String login = "$baseUrl/login";
   static const String registrasi = "$baseUrl/registrasi";
